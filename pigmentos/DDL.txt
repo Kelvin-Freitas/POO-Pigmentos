@@ -1,0 +1,15 @@
+create table Pigmento(
+	id varchar(30) not null,
+	nome varchar(70) not null unique,
+	estoque float not null,
+	preco float not null,
+	tipo int not null,
+	r int null, 
+	g int null, 
+	b int null, 
+	c int null,
+	m int null,
+	y int null,
+	k int null,
+	constraint pk_id primary key(id)
+);
